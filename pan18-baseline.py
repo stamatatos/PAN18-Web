@@ -21,6 +21,9 @@
    N-GRAM-ORDER (int) is the length of character n-grams (default=3)
    FREQUENCY-THRESHOLD (int) is the curoff threshold used to filter out rare n-grams (default=5)
    CLASSIFIER (str) is either 'OneVsOne' or 'OneVsRest' version of SVM (default=OneVsRest)
+   
+ Example:
+     > python pan18-baseline.py -i "mydata/pan18-cdaa-development-corpus" -o "mydata/pan18-out"
 """
 
 from __future__ import print_function
